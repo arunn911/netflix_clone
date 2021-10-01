@@ -1,0 +1,130 @@
+`
+
+
+
+
+/* dummy */
+
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    color:aliceblue;
+    width: 100%;
+}
+#home{
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.781) url(/home.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+#home nav{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height:35px;
+    width:100px;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    background: var(--primary-color);
+}
+.btn:hover{
+    cursor: pointer;
+    background: red;
+}
+#home nav .menu{
+    width: 400px;
+    display: flex;
+    padding:20px 50px;
+    justify-content: flex-end;
+}
+.logo img{
+    padding:20px 50px;
+    width:200px;
+}
+#home .container{
+    display: flex;
+    justify-content: center;
+}
+#home .main-box{
+    margin-top: 15rem;
+    text-align: center;
+}
+.main-box h1{
+    font-size: 3.5rem;
+}
+.main-box p{
+    font-size: 1.5rem;
+}
+.main-box label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#home .info{
+    padding: 25px 0;
+    display: flex;
+}
+#home .info input:first-child{
+    width: 75%;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#home .info input:nth-child(2){
+    height: 64px;
+    width: 120px;
+    padding: 2px 10px;
+    
+}
+
+        /* card section */
+#mainbox{
+    margin: 0 100px;
+}
+.lettercontent, .imgcontent{
+    width: 50%;
+}
+.imagecontainer img{
+    width:100%;
+}
+.imagecontainer{
+    position: relative;
+    max-width: 32rem;
+}
+.animation-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lettercontainer{
+    width: 500px;
+    padding-right: 50px;
+}
+.lettercontainer h1{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+.animation{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+.animation video{
+    width:100%;
+    display: inline-block;
+    vertical-align: baseline;
+}
